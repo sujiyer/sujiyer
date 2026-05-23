@@ -37,7 +37,8 @@ Some outcomes I'm proud of: 40% reduction in KYC onboarding friction, 156% mobil
 
 I write occasionally about fintech, product strategy, and AI governance — three pieces published, more in progress.
 
-Based in Seattle. Originally from India. Have strong opinions about financial inclusion, open banking regulation, and why good product management is mostly just listening carefully and then being stubborn about what you heard.
+Based in Boston USA . Originally from Mumbai India. 
+Why good product management is mostly just listening carefully and then being stubborn about what you heard. Lets connect on that and more !!!
 
 Certified SAFe APM, PSPO I, PSM I, AWS Cloud Practitioner.
 
