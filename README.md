@@ -44,4 +44,4 @@ Certified SAFe APM, PSPO I, PSM I, AWS Cloud Practitioner.
 
 ---
 
-📫 [LinkedIn](https://www.linkedin.com/in/sujathaiyer) · [KYC Framework](https://github.com/sujiyer/kyc-api-framework)
+📫 [LinkedIn](https://www.linkedin.com/in/sujatha-iyer/) · [KYC Framework](https://github.com/sujiyer/kyc-api-framework)
