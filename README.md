@@ -10,17 +10,96 @@ From there, fintech became the path. Global Payments first, then Fidelity — do
 
 ---
 
-## What I've been working on lately
+# Sujatha Iyer
 
-I recently published an open-source framework — something I probably should have done years ago but finally got around to. It's a KYC reference architecture for community banks and credit unions, written for institutions dealing with the same onboarding problems I spent years solving at larger ones.
+**Senior Systems Analyst | Fintech & AI Governance | Financial Inclusion**
 
-### 👉 [KYC API Framework for Financial Inclusion](https://github.com/sujiyer/kyc-api-framework)
+I build open-source frameworks that give financial institutions — particularly smaller credit unions and community banks — a practical starting point for the systems problems they all face but solve separately: how to design financial APIs that interoperate, how to govern AI that makes decisions about people's money, how to measure and address gaps in financial access.
 
-The reason I wrote it down and published it: smaller institutions — community banks, credit unions, CDFIs — serve the customers who most need good onboarding experiences, and they rarely have the resources to build what larger institutions take for granted. This framework makes those patterns available to anyone. It's not perfect but it's real, and it's based on approaches that reduced onboarding friction by 40% in production.
-
-A second one is coming — on micro-app architecture for investment platforms. A few more weeks.
+My day job is at Fidelity Investments, where I support research platforms for teams managing $5.4 trillion in assets. The frameworks I publish here generalize what I have learned across 14 years in fintech — at Fidelity, Global Payments, and Accenture — into tools any institution can adopt.
 
 ---
+
+## Open-Source Frameworks
+
+### [KYC API Framework](https://github.com/sujiayer/kyc-api-framework)
+Standardized API design patterns for financial onboarding and Know Your Customer verification. Built from patterns I developed at Global Payments, where the same framework reduced onboarding friction by approximately 40% and was reused across four product lines instead of being rebuilt each time.
+
+Covers: parallel verification, progressive verification for thin-file applicants, CFPB Section 1033 open banking integration, BSA/AML compliance requirements, community bank and credit union implementation examples.
+
+### [Fintech AI Governance Framework](https://github.com/sujiayer/fintech-ai-governance-framework)
+A portable governance framework for AI systems in financial services. Addresses the gap between regulators requiring institutions to govern their AI (CFPB, SEC, FINRA, OCC have all flagged this) and the absence of a shared, practical standard for how to do it — particularly for smaller institutions.
+
+Covers: pre-deployment testing protocols, model drift monitoring checkpoints, bias and fairness monitoring, explainability requirements, incident classification and response, audit trail specifications, NIST AI RMF alignment.
+
+### [Financial Literacy Framework](https://github.com/sujiayer/financial-literacy-framework)
+Plain-language financial education modules for underserved communities, designed for adoption by credit unions and community banks. Includes a Python tool that scans financial documents and produces a plain-language glossary of financial terms — because financial exclusion is partly a design problem, and design problems are solvable.
+
+Covers: banking basics, AI in finance (what it means for members when an algorithm makes a decision about them), credit and loans, investing basics, understanding your rights.
+
+### [Financial Inclusion Analyzer](https://github.com/sujiayer/financial-inclusion-analyzer)
+Python tool that processes FDIC National Survey of Unbanked and Underbanked Households data and produces charts and a written report. Maps the problem the other frameworks are built to address: where financial access gaps are largest, which communities are most affected, and what scale the problem operates at.
+
+Produces: three visualizations (geographic distribution, demographic breakdown, trend analysis) and a Markdown report.
+
+### [Regulatory Change Tracker](https://github.com/sujiayer/regulatory-change-tracker)
+Python tool that monitors six U.S. financial regulatory agencies — CFPB, FDIC, Federal Reserve, FinCEN, OCC, NCUA — and produces a structured digest of new rules, guidance, enforcement actions, and proposed rulemaking. Designed for compliance teams, systems analysts, and fintech developers who need to track regulatory change across a fragmented landscape without six manual subscriptions.
+
+---
+
+## How These Frameworks Connect
+
+```
+REGULATORY CHANGE TRACKER
+  ↓ surfaces new rules and guidance
+  ↓
+FINTECH AI GOVERNANCE FRAMEWORK ←→ KYC API FRAMEWORK
+  ↓ governs AI decisions                ↓ standardizes onboarding APIs
+  ↓
+FINANCIAL INCLUSION ANALYZER
+  ↓ measures the gap
+  ↓
+FINANCIAL LITERACY FRAMEWORK
+  ↓ addresses the gap at the member level
+```
+
+The KYC API Framework and AI Governance Framework are designed to work together. Every institution doing KYC verification is using some form of AI or rules engine to make decisions. The API framework standardizes how that process is designed; the governance framework standardizes how the AI inside it is tested, monitored, and kept accountable.
+
+The Regulatory Change Tracker feeds both: when a new CFPB rule changes what Section 1033 requires, or when the OCC publishes new model risk guidance, the governance framework needs to be updated. The tracker surfaces that change before it becomes an enforcement problem.
+
+---
+
+## Writing
+
+I write about the problems these frameworks address — fragmented financial onboarding, AI governance gaps, and what financial access actually looks like from the inside of the institutions that provide it.
+
+**Medium:** [@su9scorpio](https://medium.com/@su9scorpio)
+
+---
+
+## Professional Background
+
+- Senior Systems Analyst, **Fidelity Investments** (current)
+- **Global Payments**
+- **Accenture**
+
+**Expertise:** API design, systems analysis, AI governance, financial inclusion, regulatory compliance (CFPB, FinCEN, NIST AI RMF, BSA/AML, ECOA)
+
+---
+
+## Professional Affiliations
+
+- **IEEE Senior Member** — granted by peer nomination; held by approximately 10% of IEEE's global membership
+- **ACM Professional Member**
+- **ISACA Professional Member**
+- **NIST Trustworthy AI in Critical Infrastructure Community of Interest**
+- ** CRI CyberRisk Institute**
+
+---
+
+## Connect
+
+[LinkedIn](https://linkedin.com/in/sujathaiyer) | [Medium](https://medium.com/@su9scorpio)
 
 ## The career in honest terms
 
@@ -29,7 +108,55 @@ A second one is coming — on micro-app architecture for investment platforms. A
 - **Global Payments** — fintech product management, KYC and identity verification at scale, financial inclusion work I genuinely cared about
 - **Fidelity Investments** — product strategy on a $5.4 trillion AUM platform, AI governance (the first framework the platform had), figuring out what responsible AI actually means in practice rather than in a slide deck
 
-Some outcomes I'm proud of: 40% reduction in KYC onboarding friction, 156% mobile adoption growth, €1.8M in cost savings from a tech debt programme, an AI governance framework now in production.
+
+---
+
+## Open-Source Frameworks
+
+### [KYC API Framework](https://github.com/sujiyer/kyc-api-framework)
+Standardized API design patterns for financial onboarding and Know Your Customer verification. Built from patterns I developed at Global Payments, where the same framework reduced onboarding friction by approximately 40% and was reused across four product lines instead of being rebuilt each time.
+
+What it covers : parallel verification, progressive verification for thin-file applicants, CFPB Section 1033 open banking integration, BSA/AML compliance requirements, community bank and credit union implementation examples.
+
+### [Fintech AI Governance Framework](https://github.com/sujiayer/fintech-ai-governance-framework)
+A portable governance framework for AI systems in financial services. Addresses the gap between regulators requiring institutions to govern their AI (CFPB, SEC, FINRA, OCC have all flagged this) and the absence of a shared, practical standard for how to do it — particularly for smaller institutions.
+
+What it covers : pre-deployment testing protocols, model drift monitoring checkpoints, bias and fairness monitoring, explainability requirements, incident classification and response, audit trail specifications, NIST AI RMF alignment.
+
+### [Financial Literacy Framework](https://github.com/sujiayer/financial-literacy-framework)
+Plain-language financial education modules for underserved communities, designed for adoption by credit unions and community banks. Includes a Python tool that scans financial documents and produces a plain-language glossary of financial terms — because financial exclusion is partly a design problem, and design problems are solvable.
+
+What it covers : banking basics, AI in finance (what it means for members when an algorithm makes a decision about them), credit and loans, investing basics, understanding your rights.
+
+### [Financial Inclusion Analyzer](https://github.com/sujiayer/financial-inclusion-analyzer)
+Python tool that processes FDIC National Survey of Unbanked and Underbanked Households data and produces charts and a written report. Maps the problem the other frameworks are built to address: where financial access gaps are largest, which communities are most affected, and what scale the problem operates at.
+
+Results : three visualizations (geographic distribution, demographic breakdown, trend analysis) and a Markdown report.
+
+### [Regulatory Change Tracker](https://github.com/sujiayer/regulatory-change-tracker)
+Python tool that monitors six U.S. financial regulatory agencies — CFPB, FDIC, Federal Reserve, FinCEN, OCC, NCUA — and produces a structured digest of new rules, guidance, enforcement actions, and proposed rulemaking. Designed for compliance teams, systems analysts, and fintech developers who need to track regulatory change across a fragmented landscape without six manual subscriptions.
+
+---
+
+## How These Frameworks Connect
+
+```
+REGULATORY CHANGE TRACKER
+  ↓ surfaces new rules and guidance
+  ↓
+FINTECH AI GOVERNANCE FRAMEWORK ←→ KYC API FRAMEWORK
+  ↓ governs AI decisions                ↓ standardizes onboarding APIs
+  ↓
+FINANCIAL INCLUSION ANALYZER
+  ↓ measures the gap
+  ↓
+FINANCIAL LITERACY FRAMEWORK
+  ↓ addresses the gap at the member level
+```
+
+The KYC API Framework and AI Governance Framework are designed to work together. Every institution doing KYC verification is using some form of AI or rules engine to make decisions. The API framework standardizes how that process is designed; the governance framework standardizes how the AI inside it is tested, monitored, and kept accountable.
+
+The Regulatory Change Tracker feeds both: when a new CFPB rule changes what Section 1033 requires, or when the OCC publishes new model risk guidance, the governance framework needs to be updated. The tracker surfaces that change before it becomes an enforcement problem.
 
 ---
 
@@ -44,4 +171,4 @@ Certified SAFe APM, PSPO I, PSM I, AWS Cloud Practitioner.
 
 ---
 
-📫 [LinkedIn](https://www.linkedin.com/in/sujatha-iyer/) · [KYC Framework](https://github.com/sujiyer/kyc-api-framework)
+📫 [LinkedIn](https://www.linkedin.com/in/sujatha-iyer/) 
