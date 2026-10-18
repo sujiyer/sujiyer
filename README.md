@@ -1,8 +1,8 @@
 # Hey, I'm Sujatha 👋
 
-I'm a product person. That's the simplest way to put it.
+I'm a product person.
 
-I started my career at Accenture in 2011 — five years in the SAP world, sitting between clients who knew their business inside out and technical teams who knew the system inside out, being the person who had to make those two worlds actually talk to each other. It was good work and I learned a lot, but I kept feeling like I was translating without fully understanding the language on either side.
+I started my career in consulting at Accenture in 2011 : five years in the SAP world, sitting between clients who knew their business inside out and technical teams who knew the system inside out, being the person who had to make those two worlds actually talk to each other. It was good work and I learned a lot, but I kept feeling like I was translating without fully understanding the language on either side.
 
 So I went back to school. My Masters in Information Systems in the US was where things properly clicked — I was now sitting in classrooms with real work experience behind me, and suddenly data, product thinking, and technology felt like they were all part of the same conversation I had been trying to have for five years. I was also fortunate enough to be introduced to fintech during that time — not as a career plan, just something I stumbled into and couldn't stop thinking about. The idea that technology could fundamentally change who gets access to financial services stuck with me in a way that hasn't really left.
 
