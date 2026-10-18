@@ -25,22 +25,22 @@ My day job is at Fidelity Investments, where I support research platforms for te
 ### [KYC API Framework](https://github.com/sujiayer/kyc-api-framework)
 Standardized API design patterns for financial onboarding and Know Your Customer verification. Built from patterns I developed at Global Payments, where the same framework reduced onboarding friction by approximately 40% and was reused across four product lines instead of being rebuilt each time.
 
-Covers: parallel verification, progressive verification for thin-file applicants, CFPB Section 1033 open banking integration, BSA/AML compliance requirements, community bank and credit union implementation examples.
+What it covers: parallel verification, progressive verification for thin-file applicants, CFPB Section 1033 open banking integration, BSA/AML compliance requirements, community bank and credit union implementation examples.
 
 ### [Fintech AI Governance Framework](https://github.com/sujiayer/fintech-ai-governance-framework)
 A portable governance framework for AI systems in financial services. Addresses the gap between regulators requiring institutions to govern their AI (CFPB, SEC, FINRA, OCC have all flagged this) and the absence of a shared, practical standard for how to do it — particularly for smaller institutions.
 
-Covers: pre-deployment testing protocols, model drift monitoring checkpoints, bias and fairness monitoring, explainability requirements, incident classification and response, audit trail specifications, NIST AI RMF alignment.
+What it covers : pre-deployment testing protocols, model drift monitoring checkpoints, bias and fairness monitoring, explainability requirements, incident classification and response, audit trail specifications, NIST AI RMF alignment.
 
 ### [Financial Literacy Framework](https://github.com/sujiayer/financial-literacy-framework)
 Plain-language financial education modules for underserved communities, designed for adoption by credit unions and community banks. Includes a Python tool that scans financial documents and produces a plain-language glossary of financial terms — because financial exclusion is partly a design problem, and design problems are solvable.
 
-Covers: banking basics, AI in finance (what it means for members when an algorithm makes a decision about them), credit and loans, investing basics, understanding your rights.
+What it covers : banking basics, AI in finance (what it means for members when an algorithm makes a decision about them), credit and loans, investing basics, understanding your rights.
 
 ### [Financial Inclusion Analyzer](https://github.com/sujiayer/financial-inclusion-analyzer)
 Python tool that processes FDIC National Survey of Unbanked and Underbanked Households data and produces charts and a written report. Maps the problem the other frameworks are built to address: where financial access gaps are largest, which communities are most affected, and what scale the problem operates at.
 
-Produces: three visualizations (geographic distribution, demographic breakdown, trend analysis) and a Markdown report.
+Results: three visualizations (geographic distribution, demographic breakdown, trend analysis) and a Markdown report.
 
 ### [Regulatory Change Tracker](https://github.com/sujiayer/regulatory-change-tracker)
 Python tool that monitors six U.S. financial regulatory agencies — CFPB, FDIC, Federal Reserve, FinCEN, OCC, NCUA — and produces a structured digest of new rules, guidance, enforcement actions, and proposed rulemaking. Designed for compliance teams, systems analysts, and fintech developers who need to track regulatory change across a fragmented landscape without six manual subscriptions.
